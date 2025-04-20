@@ -18,8 +18,9 @@ nav ul{
 
 nav {
     background: #eee;
-    & li {
-        color:#f00
+
+    ul {
+        color:#f00;
     }
 }
 
