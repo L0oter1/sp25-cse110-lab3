@@ -1,0 +1,221 @@
+/*
+This is a comment that explains my CSS.
+I enjoy writing CSS, JUST KIDDING
+This'll be fun >:)
+*/
+
+
+
+nav ul{
+    color: rgb(187, 45, 206);
+    display: flex;
+    list-style-type: none;
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    width: 200px; 
+    margin: 0.1in
+}
+
+nav {
+    background: #eee;
+  
+    ul {
+      padding: 0;
+  
+      li {
+        display: inline-block;
+  
+        a {
+          text-decoration: none;
+          color: #333;
+  
+          &:hover {
+            color: crimson;
+          }
+        }
+      }
+    }
+  }
+
+
+ul > li {
+    margin-bottom: 10px;
+}
+
+h3 ~ p {
+    color: blue;
+}
+
+h2 + p {
+    font-weight: bold;
+}
+
+a:visited {
+    color: #2670b6; /* or whatever color you want */
+}
+
+h1 {
+    color: color(display-p3 1 0.5 0.2);
+    text-align: center;
+    display: inline;
+}
+
+h2 {
+    color: hsla(41, 88%, 45%, 0.582);
+}
+
+h3 {
+    color: aquamarine;
+}
+
+p {
+    color: color-mix(in display-p3, #f00, #00f);
+    background-color: var(--primary-color, #e74c3c);
+    position: static;
+    display: grid;
+}
+
+a {
+    text-decoration: none; /* removes underline from links */
+  }
+
+div {
+    width: 50vw; /* 50% of the viewport width */
+    padding: 2em; /* 2 times the font size of the element */
+    font-size: 1rem; /* 1 times the font size of the root element */
+    display: block;
+    position: relative;
+}
+
+li{
+    width: 200px; /* Fixed 200px width */
+    height: 1cm; /* Fixed 5cm height */
+    max-width: 200px;
+    min-width: 200px;
+    color: red;
+    margin: 0.1in
+    
+}
+
+.container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3498db;
+    border-radius: 10px;
+}
+
+.box {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
+    border: 2px solid #3498db; /* width style color */
+    border-radius: 0px;
+}
+
+button:hover {
+    color: rgb(211, 31, 187);
+}
+
+button:active{
+    color:red;
+}
+
+@media (max-width: 900px) {
+    body {
+      font-size: 16px;
+      padding: 20px;
+    }
+  
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .flex-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+}
+
+
+.special-gothic-expanded-one-regular {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+body {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    background-color: #c4e64954;
+}
+
+.first {
+    font-size: 80px;
+    color:aquamarine
+}
+
+#brain {
+    color:pink;
+}
+
+input[type="text"]{
+    border: 1px solid #ccc;
+    color:#e74c3c;
+}
+
+button.primary {
+    background-color: #3498db;
+}
+
+form {
+    color: rgb(15, 211, 81);
+}
+
+div:has(img){
+    border: 2px solid green;
+}
+
+select{
+    color:rgb(15, 211, 81)
+}
+
+datalist {
+    color: rgb(37, 3, 231);
+}
+
+#picture {
+    transform: translate(-20px);
+}
+
+/*
+Variables
+*/
+
+* {
+    box-sizing: border-box;
+  }
+
+:root {
+    --primary-color: #1878b886;
+}
+
+

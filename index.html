@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" href="assets/icon.png">
     <title>Jeff Team Meeting 1</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main>
@@ -18,10 +19,10 @@
 
         <section>
 
-            <span>This will be where I keep track of all our notes</span>
+            <span class="first">Meeting Notes, Melon Themed</span>
 
             <div>
-                <h2>Brain Storming</h2>
+                <h2 id="brain">Brain Storming</h2>
                 <p>We will <span>have to talk</span> about possible projects to come up</p>
             </div>
         
@@ -52,11 +53,7 @@
             <div>
                 <h2>Images, Audio, and Video of Meeting</h2>
                 <h3>Random Code I found online</h3>
-                <img src="assets/samplecode.jpg" alt="sample code of java">
-
-                <h3>W3 Validation</h3>
-                <img src="screenshots/valid.png" alt="my valid W3, TRUST">
-                <br>
+                <img src="assets/samplecode.jpg" alt="sample code of java" id="picture">
 
                 <audio controls>
                     <source src="assets/CSE110.mp3" type="audio/mpeg">
@@ -94,7 +91,7 @@
 
                     <br>
 
-                    <h2>textarea</h2>
+                    <h2>Enter Notes Here</h2>
                     <textarea rows="2" cols="10" placeholder="write more notes here"></textarea>
 
                     <br>
@@ -119,16 +116,22 @@
                     <br>
 
                     <h2>Inputs!</h2>
-                    <h3>Checkbox</h3>
+                    <h3>To-Do</h3>
                     <label>
                         <input type="checkbox" name="check in with TA" value="todo"> Schedule Time with TA
+                        <input type="checkbox" > Work on CSE 110 Homework
+                        <input type="checkbox" > Work on CSE 110 Lab
+
+                        
                     </label>
 
                     <br>
 
-                    <h3>Radio</h3>
+                    <h3>Our Favorite Fruits!</h3>
                     <label>
                         <input type="radio" name="favorite food" value="banana"> banana
+                        <input type="radio" name="favorite food" value="apple"> apple
+                        <input type="radio" name="favorite food" value="grape"> grape
                     </label>
 
                     <br>
