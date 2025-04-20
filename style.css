@@ -165,6 +165,7 @@ button:active{
 
 body {
     font-family: 'Special Gothic Expanded One', sans-serif;
+    background-color: #c4e64954;
 }
 
 .first {
@@ -193,6 +194,17 @@ div:has(img){
     border: 2px solid green;
 }
 
+select{
+    color:rgb(15, 211, 81)
+}
+
+datalist {
+    color: rgb(37, 3, 231);
+}
+
+#picture {
+    transform: translate(-20px);
+}
 
 /*
 Variables
